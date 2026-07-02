@@ -1,0 +1,45 @@
+team_name: "GG Times"
+
+primary_contact:
+  name: "Girija G"
+  email: "thatsgirijag.com"
+  phone: "+91-8754569475"
+
+
+github_repo: "https://github.com/YOUR_USERNAME/redrob-qihcr"
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+reproduce_command: "python rank.py --candidates ../candidates.jsonl --out submission.csv"
+
+compute:
+  platform: "Windows"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Used Claude,easier.io for architecture design and code implementation. 
+  No candidate data was fed to any LLM.
+
+methodology_summary: |
+  Quantum-Inspired Hypergraph Cascading Ranking (QIHCR) system with 6 layers:
+  (1) Quantum skill interference modeling emergent combinations, (2) Hypergraph
+  skill synergies capturing multi-way relationships, (3) Cascading behavioral
+  signal integration using 14 Redrob signals in natural sequence, (4) Temporal
+  analysis with 7 time-based signals, (5) Logistics analysis with 3 practical
+  signals, (6) Spherical embedding scoring for experience/location. Uses all
+  23 Redrob behavioral signals. Runtime ~3 minutes for 100K candidates on CPU.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
