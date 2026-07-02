@@ -2,7 +2,12 @@
 
 ## Quantum-Inspired Hypergraph Cascading Ranking System
 
-Youtube Vedio [Link](https://youtu.be/WVD4pCgsllU)
+
+---
+
+## Youtube Vedio [Link](https://youtu.be/WVD4pCgsllU)
+
+---
 
 [Hugging Face Space](https://huggingface.co/spaces/GirijaGeddavalasa/qihcr-candidate-ranker)
 [Hugging Face Space README](https://huggingface.co/spaces/GirijaGeddavalasa/qihcr-candidate-ranker/blob/main/README.md)
