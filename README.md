@@ -2,6 +2,13 @@
 
 ## Quantum-Inspired Hypergraph Cascading Ranking System
 
+[Hugging Face Space](https://huggingface.co/spaces/GirijaGeddavalasa/qihcr-candidate-ranker)
+[Hugging Face Space README](https://huggingface.co/spaces/GirijaGeddavalasa/qihcr-candidate-ranker/blob/main/README.md)
+
+## Architecture Diagram
+![Architecture](architecture1.png)
+
+
 ## Structure
 ```
 submission/
