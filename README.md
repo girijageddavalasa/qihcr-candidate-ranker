@@ -8,9 +8,6 @@
 ## Architecture Diagram
 ![Architecture](architecture1.png)
 
-# QIHCR Video Script
-### (Read this out loud, section by section, on camera or as voiceover)
-
 ---
 
 ## 1. OPENING — What problem are we solving?
