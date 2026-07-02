@@ -10,7 +10,7 @@
 
 ---
 
-## 1. OPENING — What problem are we solving?
+##  What problem are we solving?
 
 "Hi, I'm going to walk you through QIHCR — Quantum-Inspired Hypergraph Cascading Ranking — a system we built to rank job candidates for a Senior AI Engineer role, given a job description and a pool of over 100,000 candidate profiles with 23 behavioral signals each.
 
@@ -20,7 +20,7 @@ So we couldn't use ChatGPT-style models to write reasoning, and we couldn't trai
 
 ---
 
-## 2. WHY QUANTUM? — The actual reasoning, from scratch
+## WHY QUANTUM? — The actual reasoning, from scratch
 
 "Here's the specific problem we kept running into. Normal matching systems check: does this candidate have skill X? Skill Y? Skill Z? Then they add up the points. That's it — keyword matching, or linear scoring.
 
@@ -36,7 +36,7 @@ When two individually weak skills line up in phase, that squared result jumps up
 
 ---
 
-## 3. THE SIX LAYERS — What each one does, and how
+## THE SIX LAYERS — What each one does, and how
 
 "QIHCR doesn't score a candidate with one formula. It runs six separate layers, each specialized for a different kind of signal, and then combines them.
 
@@ -60,13 +60,13 @@ For comparing high-dimensional data, measuring the angle between two vectors is 
 
 ---
 
-## 4. HONEYPOT DETECTION — Catching fake profiles
+## HONEYPOT DETECTION — Catching fake profiles
 
 "Before any of the six layers run, every candidate passes through a honeypot filter. This catches impossible profiles — someone claiming 10 years in a role but listed as an intern, someone with expert-level skills but zero months of experience, or career histories with dates that don't add up. Each red flag adds to a suspicion score, and if a candidate crosses the threshold, they're removed completely — not down-ranked, removed — before scoring even begins."
 
 ---
 
-## 5. WHAT MAKES THIS DIFFERENT FROM EXISTING APPROACHES
+## WHAT MAKES THIS DIFFERENT FROM EXISTING APPROACHES
 
 "Let's compare this to what already exists.
 
@@ -84,7 +84,7 @@ So the honest differentiation isn't 'we invented something no one's ever thought
 
 ---
 
-## 6. HOW THE FINAL SCORE AND OUTPUT ARE DECIDED
+## HOW THE FINAL SCORE AND OUTPUT ARE DECIDED
 
 "Once all six layers produce their scores, we combine them with fixed weights that reflect how predictive each layer is:
 
